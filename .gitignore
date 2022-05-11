@@ -59,3 +59,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 .ionide
+
+# Flooded Grounds whole package
+[Aa]ssets/Flooded_Grounds/
