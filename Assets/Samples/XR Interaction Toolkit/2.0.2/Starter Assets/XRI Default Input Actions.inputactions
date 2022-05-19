@@ -278,15 +278,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "JoystickX",
-                    "type": "Button",
-                    "id": "b62d506d-c9f5-4db6-b515-9a4a4a09b1b1",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -465,17 +456,6 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "7218d209-b646-4765-b426-fb922e41cdd6",
-                    "path": "<OpenVROculusTouchController>{LeftHand}/thumbstickTouched",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "JoystickX",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
@@ -820,7 +800,7 @@
                 {
                     "name": "Jump",
                     "type": "Button",
-                    "id": "9b70bb42-c7db-4539-bdb3-10bb7c25faf9",
+                    "id": "1f76a28a-7da6-40f4-b1a4-5df906f6d793",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -1006,7 +986,7 @@
                 },
                 {
                     "name": "",
-                    "id": "a42c890d-2ea0-45bb-a687-9799d5caff45",
+                    "id": "2f867aec-1e7e-470d-8156-2d6b44239100",
                     "path": "<XRController>{RightHand}/primaryButton",
                     "interactions": "",
                     "processors": "",

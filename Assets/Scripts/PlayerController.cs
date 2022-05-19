@@ -5,9 +5,12 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using Unity.XR.CoreUtils;
 
+[RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
 {
-    public GameObject playerContainer;
+    [SerializeField] private bool canJump = true;
+    [SerializeField] private InputActionReference jumpActionReference;
+    [SerializeField] private float jumpForce = 100.0f;
 
     private XROrigin _xrOrigin;
     private CapsuleCollider _collider;
@@ -23,7 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         _xrOrigin = GetComponent<XROrigin>();
         _collider = GetComponent<CapsuleCollider>();
-        _body = playerContainer.GetComponent<Rigidbody>();
+        _body = GetComponent<Rigidbody>();
         spawn = transform.position;
         startTime = Time.time;
     }
@@ -33,14 +36,31 @@ public class PlayerController : MonoBehaviour
     {
         elapsedTime = Time.time - startTime;
 
-        var center = _xrOrigin.CameraInOriginSpacePos;
-        _collider.center = new Vector3(center.x, _collider.center.y, center.z);
-        _collider.height = _xrOrigin.CameraInOriginSpaceHeight;
+        JumpHandler();
     }
 
     // Updaters
 
     // Action handlers
+
+    private void JumpHandler() {
+        if (canJump) {
+            float gripValue = jumpActionReference.action.ReadValue<float>();
+            if (gripValue > 0) {
+                OnJump();
+            }
+        }
+    }
+    private void OnJump() {
+        RaycastHit hit;
+        Vector3 headPosition = new Vector3(transform.position.x, transform.position.y +_collider.height, transform.position.z);
+        Vector3 direction = Vector3.down;
+        float maxDistance = 2.1f;
+        if (Physics.Raycast(headPosition, direction, out hit, maxDistance)) {
+            Vector3 jump = Vector3.up * jumpForce;
+            _body.AddForce(jump);
+        };
+    }
 
     private void ResetScene() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
