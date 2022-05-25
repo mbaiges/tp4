@@ -325,6 +325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -592,6 +596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_B
       objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -727,6 +735,10 @@ PrefabInstance:
     - target: {fileID: 168624, guid: 06e456f55e6fa06438fb977ee919a779, type: 3}
       propertyPath: m_Name
       value: BLD_Bridge_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 168624, guid: 06e456f55e6fa06438fb977ee919a779, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 486830, guid: 06e456f55e6fa06438fb977ee919a779, type: 3}
       propertyPath: m_RootOrder
@@ -2025,6 +2037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pref_Barn2_A
       objectReference: {fileID: 0}
+    - target: {fileID: 40757336877532726, guid: 66b017f0e60952d49ad246cbb826747e, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 40757336877532729, guid: 66b017f0e60952d49ad246cbb826747e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2118,6 +2134,10 @@ PrefabInstance:
     - target: {fileID: 4497436628022275478, guid: a0dcdf3f7d3598d4688896e54aa76ed2, type: 3}
       propertyPath: m_Name
       value: Pref_Barn1_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497436628022275478, guid: a0dcdf3f7d3598d4688896e54aa76ed2, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 4497436628022275479, guid: a0dcdf3f7d3598d4688896e54aa76ed2, type: 3}
       propertyPath: m_RootOrder
@@ -2398,6 +2418,10 @@ PrefabInstance:
     - target: {fileID: 5867595515298874994, guid: 46ae7abecd3329e45acb802aa2ca51e2, type: 3}
       propertyPath: m_Name
       value: Pref_Cabin1_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867595515298874994, guid: 46ae7abecd3329e45acb802aa2ca51e2, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46ae7abecd3329e45acb802aa2ca51e2, type: 3}
@@ -2790,6 +2814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_A_DM
       objectReference: {fileID: 0}
+    - target: {fileID: 170528, guid: 13b1d2550a4cb4b429bb4d9463a0e915, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 402548, guid: 13b1d2550a4cb4b429bb4d9463a0e915, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2851,6 +2879,10 @@ PrefabInstance:
     - target: {fileID: 121634, guid: 3852c07710f30b64c9aea4fdd03eb915, type: 3}
       propertyPath: m_Name
       value: Struct_WoodPath_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 121634, guid: 3852c07710f30b64c9aea4fdd03eb915, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 402812, guid: 3852c07710f30b64c9aea4fdd03eb915, type: 3}
       propertyPath: m_RootOrder
@@ -3459,6 +3491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3679,6 +3715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_A_DM (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 170528, guid: 13b1d2550a4cb4b429bb4d9463a0e915, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 402548, guid: 13b1d2550a4cb4b429bb4d9463a0e915, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3740,6 +3780,10 @@ PrefabInstance:
     - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_Name
       value: Struct_Docking_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
@@ -3865,6 +3909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3926,6 +3974,10 @@ PrefabInstance:
     - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_Name
       value: Struct_Docking_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
@@ -4350,6 +4402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_A
       objectReference: {fileID: 0}
+    - target: {fileID: 137216, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 418494, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4474,6 +4530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_B (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4535,6 +4595,10 @@ PrefabInstance:
     - target: {fileID: 121634, guid: 3852c07710f30b64c9aea4fdd03eb915, type: 3}
       propertyPath: m_Name
       value: Struct_WoodPath_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 144736, guid: 3852c07710f30b64c9aea4fdd03eb915, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 402812, guid: 3852c07710f30b64c9aea4fdd03eb915, type: 3}
       propertyPath: m_RootOrder
@@ -4947,6 +5011,10 @@ PrefabInstance:
     - target: {fileID: 150836, guid: 6f60540659e8d0040aaae31620c1ac44, type: 3}
       propertyPath: m_Name
       value: BLD_Bridge_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 150836, guid: 6f60540659e8d0040aaae31620c1ac44, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 495248, guid: 6f60540659e8d0040aaae31620c1ac44, type: 3}
       propertyPath: m_RootOrder
@@ -7960,6 +8028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cabin1_DM
       objectReference: {fileID: 0}
+    - target: {fileID: 110802, guid: 89f79f1bf5f167d4298cf43d900f56c1, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 499692, guid: 89f79f1bf5f167d4298cf43d900f56c1, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -8053,6 +8125,10 @@ PrefabInstance:
     - target: {fileID: 3930495006417603530, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
       propertyPath: m_Name
       value: Pref_Villa1_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006417603530, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 3930495006417603531, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
       propertyPath: m_RootOrder
@@ -8362,6 +8438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cabin2_End1
       objectReference: {fileID: 0}
+    - target: {fileID: 174254, guid: 3fd2fe4dce6b88f4e9f2fc1dcd085960, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 495872, guid: 3fd2fe4dce6b88f4e9f2fc1dcd085960, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -8461,6 +8541,10 @@ PrefabInstance:
     - target: {fileID: 168624, guid: 06e456f55e6fa06438fb977ee919a779, type: 3}
       propertyPath: m_Name
       value: BLD_Bridge_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 168624, guid: 06e456f55e6fa06438fb977ee919a779, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 486830, guid: 06e456f55e6fa06438fb977ee919a779, type: 3}
       propertyPath: m_RootOrder
@@ -9504,6 +9588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_B
       objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -9565,6 +9653,10 @@ PrefabInstance:
     - target: {fileID: 157482, guid: d2c499d59bc20854b8bd6d43bbfb4ca5, type: 3}
       propertyPath: m_Name
       value: Struct_Pavilion_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 157482, guid: d2c499d59bc20854b8bd6d43bbfb4ca5, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 493530, guid: d2c499d59bc20854b8bd6d43bbfb4ca5, type: 3}
       propertyPath: m_RootOrder
@@ -9824,6 +9916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Church1_End_A
       objectReference: {fileID: 0}
+    - target: {fileID: 192102, guid: 536c47ed6c4df7448adae963b41045e3, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 470334, guid: 536c47ed6c4df7448adae963b41045e3, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -10041,6 +10137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Church1_Deco_Column_A
       objectReference: {fileID: 0}
+    - target: {fileID: 108230, guid: f8515ca20eba062499108c590879972d, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 401972, guid: f8515ca20eba062499108c590879972d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10164,6 +10264,10 @@ PrefabInstance:
     - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_Name
       value: Struct_Docking_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
@@ -10413,6 +10517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_A (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 137216, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 418494, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -10474,6 +10582,10 @@ PrefabInstance:
     - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_Name
       value: Struct_Docking_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
@@ -11388,6 +11500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barn1_End_B
       objectReference: {fileID: 0}
+    - target: {fileID: 138322, guid: c5eecfcfa4f017648b3c8d62a4286b46, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 495214, guid: c5eecfcfa4f017648b3c8d62a4286b46, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -12095,6 +12211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightHouse_A
       objectReference: {fileID: 0}
+    - target: {fileID: 126326, guid: 3039651ccbe95a249a8d0d642e65d727, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 438278, guid: 3039651ccbe95a249a8d0d642e65d727, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -12367,7 +12487,7 @@ GameObject:
   - component: {fileID: 2026334583}
   m_Layer: 0
   m_Name: PoI-LonelyIslandHouse
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12778,6 +12898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BLD_Bridge_B
       objectReference: {fileID: 0}
+    - target: {fileID: 150836, guid: 6f60540659e8d0040aaae31620c1ac44, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 495248, guid: 6f60540659e8d0040aaae31620c1ac44, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -13139,6 +13263,10 @@ PrefabInstance:
     - target: {fileID: 7502950841304609418, guid: 7bbb41d176ebce443bbf1eb3552c319f, type: 3}
       propertyPath: m_Name
       value: GuardHouse_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502950841304609418, guid: 7bbb41d176ebce443bbf1eb3552c319f, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bbb41d176ebce443bbf1eb3552c319f, type: 3}
