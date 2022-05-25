@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - XROrigin
   - Water
+  - Wood
   layers:
   - Default
   - TransparentFX
