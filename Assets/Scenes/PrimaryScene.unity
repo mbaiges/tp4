@@ -15,10 +15,10 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0, g: 0, b: 0, a: 0.65882355}
+  m_FogColor: {r: 0, g: 0, b: 0, a: 0.5372549}
   m_FogMode: 1
   m_FogDensity: 0.04
-  m_LinearFogStart: 50
+  m_LinearFogStart: 200
   m_LinearFogEnd: 700
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.6040851, g: 0.63336676, b: 0.7075472, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: e1c94406843be48458a20363bfced296, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 51d9d8555e065f8419e64a9882409b20, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15684068, g: 0.16659456, b: 0.21383396, a: 1}
+  m_IndirectSpecularColor: {r: 0.008102158, g: 0.009283685, b: 0.008102158, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2418,8 +2418,8 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 5ddb449f58e551e4ab0471457e9fa405, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 200
+  m_TreeDistance: 300
+  m_TreeBillboardDistance: 300
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
@@ -6191,7 +6191,7 @@ GameObject:
   - component: {fileID: 906905667}
   - component: {fileID: 906905666}
   m_Layer: 0
-  m_Name: Audio Sources
+  m_Name: Cricket Sounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6210,15 +6210,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 450057712}
-  checkEvery: 2
-  spawningRange: 30
-  despawningDistance: 50
-  cricketSounds: []
-  cricketTimeBetweenMin: 5
-  cricketTimeBetweenMax: 8
-  cricketVolumeMin: 0.8
-  cricketVolumeMax: 1
-  cricketsMaxNearPlayer: 2
+  checkEvery: 4
+  spawningRangeMin: 0
+  spawningRangeMax: 50
+  despawningDistance: 100
+  sounds:
+  - {fileID: 8300000, guid: e3fc48b31a16ea54985bdad6539ceea3, type: 3}
+  - {fileID: 8300000, guid: 0b1feb265f05dfc45827bd30499b4f25, type: 3}
+  - {fileID: 8300000, guid: a793b6351a86e6e4d996d47823446a3a, type: 3}
+  maxNearPlayer: 2
+  maxInMap: 100
+  timeBetweenMin: 3
+  timeBetweenMax: 12
+  pitchMin: 0.8
+  pitchMax: 1
+  volumeMin: 0.8
+  volumeMax: 1
+  treeHeightMin: 0
+  treeHeightMax: 0
 --- !u!4 &906905667
 Transform:
   m_ObjectHideFlags: 0
@@ -8636,6 +8645,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3930495006417603531, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
   m_PrefabInstance: {fileID: 1248694538}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1251987817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1251987819}
+  - component: {fileID: 1251987818}
+  m_Layer: 0
+  m_Name: Thunder Sounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1251987818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251987817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8151c26118c801044b34d8ff3b1c55b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 450057712}
+  checkEvery: 4
+  spawningRangeMin: 50
+  spawningRangeMax: 100
+  despawningDistance: 150
+  sounds:
+  - {fileID: 8300000, guid: 8204ea3441644cd408f3430087cedcce, type: 3}
+  maxNearPlayer: 1
+  maxInMap: 1
+  timeBetweenMin: 3
+  timeBetweenMax: 12
+  pitchMin: 0.8
+  pitchMax: 1
+  volumeMin: 0.8
+  volumeMax: 1
+  treeHeightMin: 4
+  treeHeightMax: 15
+--- !u!4 &1251987819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251987817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1255647566
 GameObject:
   m_ObjectHideFlags: 0
@@ -10763,13 +10832,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549558412}
-  m_LocalRotation: {x: 0.37075487, y: -0.15037665, z: 0.2796983, w: 0.8727523}
+  m_LocalRotation: {x: -0.66826856, y: 0.23112147, z: -0.23112147, w: -0.66826856}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1026758173}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 406.993, y: -4.632, z: -326.476}
+  m_LocalEulerAnglesHint: {x: 90, y: -4.632, z: -326.476}
 --- !u!1001 &1584637765
 PrefabInstance:
   m_ObjectHideFlags: 0
