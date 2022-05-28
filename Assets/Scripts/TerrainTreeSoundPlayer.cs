@@ -61,8 +61,6 @@ public class TerrainTreeSoundPlayer : MonoBehaviour
         terrain = Terrain.activeTerrain;
         terrainData = terrain.terrainData;
         trees = terrainData.treeInstances;
-        
-        Debug.Log("Total Trees in Map: " + trees.Length);
     }
 
     private Vector3 GetTreeBasePosition(TreeInstance tree) {
@@ -114,7 +112,6 @@ public class TerrainTreeSoundPlayer : MonoBehaviour
             AudioSource src = soundSource.GetComponent<AudioSource>();
 
             src.volume = Random.Range(volumeMin, volumeMax);
-            Debug.Log(src.volume);
             src.pitch = Random.Range(pitchMin, pitchMax);
             src.spatialize = true;
             src.spatializePostEffects = true;
