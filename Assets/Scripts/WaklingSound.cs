@@ -26,11 +26,14 @@ public class WaklingSound : MonoBehaviour
         RaycastHit hit;
         Vector3 pos = new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
         Physics.Raycast(pos, Vector3.down, out hit);
-        if(hit.transform.tag == "Wood"){
-            GetComponent<AudioSource>().clip = woodClip;
-        }else{
-            GetComponent<AudioSource>().clip = grassClip;
+        if(hit.transform != null){
+            if(hit.transform.tag == "Wood"){
+                GetComponent<AudioSource>().clip = woodClip;
+            }else{
+                GetComponent<AudioSource>().clip = grassClip;
         }
+        }
+        
 
         if(IsGrounded() && rb.velocity.magnitude > velocityCap && !GetComponent<AudioSource>().isPlaying){
             GetComponent<AudioSource>().volume = Random.Range(0.8f,1f);

@@ -196,6 +196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 137216, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 418494, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -903,14 +907,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132969439}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 707.4, y: 8.880001, z: -766.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 216638647}
   - {fileID: 2003594669}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &147869970
 GameObject:
@@ -1090,16 +1094,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163021918}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 258.6, y: -7.4035053, z: -70.100006}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -448.80002, y: -16.283506, z: 696.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1873226307}
   - {fileID: 195463050}
   - {fileID: 304715597}
   - {fileID: 1308186453}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &164785831
 GameObject:
@@ -1124,8 +1128,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164785831}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 505.34955, y: -10.559998, z: -579.07086}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -202.05048, y: -19.439999, z: 187.42914}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 23979819}
@@ -1136,9 +1140,14 @@ Transform:
   - {fileID: 95018434}
   - {fileID: 1208718529}
   - {fileID: 1803053777}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &171245467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
+  m_PrefabInstance: {fileID: 1435038581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &188168435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2095,6 +2104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Sofa_A
       objectReference: {fileID: 0}
+    - target: {fileID: 132456, guid: d8740ed2b9dd7eb4f9b01ee19dcf0cd3, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 432834, guid: d8740ed2b9dd7eb4f9b01ee19dcf0cd3, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2210,6 +2223,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 164785832}
     m_Modifications:
+    - target: {fileID: 40757335889575450, guid: 66b017f0e60952d49ad246cbb826747e, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 40757336795992159, guid: 66b017f0e60952d49ad246cbb826747e, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 40757336877532726, guid: 66b017f0e60952d49ad246cbb826747e, type: 3}
       propertyPath: m_Name
       value: Pref_Barn2_A
@@ -2301,6 +2322,37 @@ MonoBehaviour:
   material: {fileID: 11400000, guid: ed65b244617a3154ba34ebdb722855a9, type: 2}
   exportAllChildren: 1
   terrainSimplificationLevel: 0
+--- !u!1 &303447740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 303447741}
+  m_Layer: 0
+  m_Name: PoI-EasterEgg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &303447741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303447740}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -778.7, y: -20.655602, z: 478}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 171245467}
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &304715596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2308,6 +2360,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 163021919}
     m_Modifications:
+    - target: {fileID: 4497436626438245382, guid: a0dcdf3f7d3598d4688896e54aa76ed2, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497436627183398828, guid: a0dcdf3f7d3598d4688896e54aa76ed2, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497436627723990709, guid: a0dcdf3f7d3598d4688896e54aa76ed2, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 4497436628022275478, guid: a0dcdf3f7d3598d4688896e54aa76ed2, type: 3}
       propertyPath: m_Name
       value: Pref_Barn1_B
@@ -2726,6 +2790,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 493530, guid: d2c499d59bc20854b8bd6d43bbfb4ca5, type: 3}
   m_PrefabInstance: {fileID: 375727661}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &387216930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 387216932}
+  - component: {fileID: 387216931}
+  m_Layer: 0
+  m_Name: Tree Sounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &387216931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387216930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8151c26118c801044b34d8ff3b1c55b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 450057712}
+  checkEvery: 4
+  spawningRangeMin: 0
+  spawningRangeMax: 50
+  despawningDistance: 100
+  sounds:
+  - {fileID: 6186528488459781630, guid: ddb21c511dd270f4a917349195d03b6d, type: 3}
+  - {fileID: 310328642756301108, guid: b48a444b37950cb48b85c9326bbd9d13, type: 3}
+  - {fileID: 8330300518641773863, guid: ffe299beea57ec548a9ec3fa88d20dc0, type: 3}
+  - {fileID: 2386104014901290749, guid: e44465a0ed5db16499642b1b8e4d359d, type: 3}
+  maxNearPlayer: 2
+  maxInMap: 6
+  timeBetweenMin: 35
+  timeBetweenMax: 120
+  pitchMin: 0.8
+  pitchMax: 1
+  volumeMin: 0.4
+  volumeMax: 0.7
+  treeHeightMin: 0
+  treeHeightMax: 0
+--- !u!4 &387216932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387216930}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1974432393}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &387724751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2798,6 +2925,10 @@ PrefabInstance:
     - target: {fileID: 199228, guid: fe816015a58e629439b27ecca9cdb110, type: 3}
       propertyPath: m_Name
       value: Prop_ChurchBench_A_DM (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199228, guid: fe816015a58e629439b27ecca9cdb110, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 485384, guid: fe816015a58e629439b27ecca9cdb110, type: 3}
       propertyPath: m_RootOrder
@@ -3139,8 +3270,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448859162}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 289.81332, y: -7.418703, z: 33.124176}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -417.5867, y: -16.298704, z: 799.62415}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 209466301}
@@ -3149,8 +3280,8 @@ Transform:
   - {fileID: 1700399584}
   - {fileID: 937218165}
   - {fileID: 375727662}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &450057712
 GameObject:
@@ -3267,7 +3398,7 @@ Transform:
   m_Children:
   - {fileID: 1355440327}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &450057719
 MonoBehaviour:
@@ -3558,6 +3689,10 @@ PrefabInstance:
     - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_Name
       value: Prop_ChurchBench_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_RootOrder
@@ -4844,6 +4979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 137216, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 418494, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5048,16 +5187,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745902043}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 676.4, y: -12.552408, z: -75.860016}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -31, y: -21.43241, z: 690.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 92726562}
   - {fileID: 21640121}
   - {fileID: 210724766}
   - {fileID: 1453532748}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &749348918
 PrefabInstance:
@@ -5131,6 +5270,10 @@ PrefabInstance:
     - target: {fileID: 137216, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
       propertyPath: m_Name
       value: Struct_Docking_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137216, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 418494, guid: d252560780ba70742afb43ce80fdc2c4, type: 3}
       propertyPath: m_RootOrder
@@ -6129,6 +6272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_ChurchBench_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -6215,17 +6362,17 @@ MonoBehaviour:
   spawningRangeMax: 50
   despawningDistance: 100
   sounds:
-  - {fileID: 8300000, guid: e3fc48b31a16ea54985bdad6539ceea3, type: 3}
-  - {fileID: 8300000, guid: 0b1feb265f05dfc45827bd30499b4f25, type: 3}
-  - {fileID: 8300000, guid: a793b6351a86e6e4d996d47823446a3a, type: 3}
+  - {fileID: 7579931689705216004, guid: f3f8a3de8d8c8da4abd7028b7e93467e, type: 3}
+  - {fileID: 7846698234162840009, guid: ee6811aabc247fd4e8d553d73758b1a6, type: 3}
+  - {fileID: 8587244517665214069, guid: c1b6a91779a406b448e3ba292732e4c2, type: 3}
   maxNearPlayer: 2
-  maxInMap: 100
-  timeBetweenMin: 3
-  timeBetweenMax: 12
+  maxInMap: 4
+  timeBetweenMin: 30
+  timeBetweenMax: 180
   pitchMin: 0.8
   pitchMax: 1
-  volumeMin: 0.8
-  volumeMax: 1
+  volumeMin: 0.1
+  volumeMax: 0.2
   treeHeightMin: 0
   treeHeightMax: 0
 --- !u!4 &906905667
@@ -6235,12 +6382,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906905665}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 1974432393}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &908717708
 GameObject:
@@ -6265,8 +6412,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908717708}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 598.59, y: 20.510002, z: -221.03}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -108.81, y: 11.630001, z: 545.47}
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.72}
   m_Children:
   - {fileID: 928281949}
@@ -6296,8 +6443,8 @@ Transform:
   - {fileID: 387724752}
   - {fileID: 2039536032}
   - {fileID: 1826230464}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &910122286
 PrefabInstance:
@@ -6309,6 +6456,10 @@ PrefabInstance:
     - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_Name
       value: Prop_ChurchBench_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_RootOrder
@@ -6433,6 +6584,10 @@ PrefabInstance:
     - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_Name
       value: Prop_ChurchBench_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_RootOrder
@@ -6763,6 +6918,10 @@ PrefabInstance:
     - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_Name
       value: Prop_ChurchBench_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_RootOrder
@@ -7223,9 +7382,8 @@ Transform:
   - {fileID: 1549558414}
   - {fileID: 246871564}
   - {fileID: 307317668}
-  - {fileID: 1476746474}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1030401189
 GameObject:
@@ -7300,7 +7458,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1033826153
 PrefabInstance:
@@ -7512,6 +7670,10 @@ PrefabInstance:
     - target: {fileID: 115328, guid: 5700c2dc6724c3a4fb462b0001e31742, type: 3}
       propertyPath: m_Name
       value: Church1_Mid_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 115328, guid: 5700c2dc6724c3a4fb462b0001e31742, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 432904, guid: 5700c2dc6724c3a4fb462b0001e31742, type: 3}
       propertyPath: m_RootOrder
@@ -8574,6 +8736,430 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 164785832}
     m_Modifications:
+    - target: {fileID: 3930495005478253823, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005491764271, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005495629882, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005496612552, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005497784022, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005499098426, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005501807647, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005523736016, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005535118641, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005537913902, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005547605694, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005556294568, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005563080693, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005576381895, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005577745479, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005588517439, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005591299134, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005598722950, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005604946428, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005609010874, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005618198698, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005623183840, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005636808755, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005636939725, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005644170716, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005670887447, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005679983073, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005683496702, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005687552492, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005687665746, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005695224217, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005703878881, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005716676307, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005717604259, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005721718611, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005730557608, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005735332627, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005739544347, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005741139720, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005746515156, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005754658925, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005760783909, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005765259323, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005775621961, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005801116563, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005805052472, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005810517289, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005830718745, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005847675681, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005858887131, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005876707838, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005882644565, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005883038441, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005889814376, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005890465012, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005893235712, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005904509874, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005939579815, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005952664432, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005971448209, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005978012082, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495005984046995, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006013440366, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006019163186, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006019467860, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006025819756, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006041984377, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006059009441, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006069482016, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006071273112, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006076905870, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006083463805, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006095947768, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006100027437, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006100735862, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006102483385, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006105281299, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006111971031, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006114383216, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006146727301, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006147612765, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006163786251, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006170982723, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006176463746, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006183293271, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006183312360, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006206529197, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006231890577, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006239905462, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006264034995, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006272433050, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006277895704, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006285461918, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006299069600, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006309030512, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006312361673, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006314026029, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006327457845, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006353633940, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006354238169, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006359744472, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006365787269, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006383201411, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006384849489, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006393674618, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006397743662, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 3930495006417603530, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
       propertyPath: m_Name
       value: Pref_Villa1_A
@@ -8638,6 +9224,582 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3930495006430309069, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006432693790, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006445245573, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006463053026, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006478910587, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006490308033, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006499407038, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006506168943, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006513218880, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006522085219, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006524691326, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006529020101, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006540868473, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006553047860, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006568102118, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006579575876, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006594541268, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006600017757, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006603262648, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006605049167, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006617930190, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006618625840, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006621917691, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006626523769, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006626655269, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006631420051, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006631595330, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006635589285, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006638942803, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006640573861, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006648064114, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006658450208, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006662537982, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006678644997, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006690943304, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006698592720, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006710386158, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006717471125, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006722623413, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006743291030, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006746595602, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006749328303, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006752789258, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006753565139, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006755858350, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006763518916, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006801863442, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006819512561, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006820300093, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006829325273, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006830142893, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006839874634, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006861196381, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006861927152, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006870720006, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006878520872, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006884126780, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006889243660, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006906738699, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006918305163, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006921700142, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006921779717, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006940742768, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006943430315, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006953900485, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495006969998522, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007003457524, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007005178762, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007013695027, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007016748544, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007021390548, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007031269366, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007033046854, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007037008088, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007047123224, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007054998981, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007059508698, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007064494782, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007066395030, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007071784211, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007090471261, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007097089386, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007106555660, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007129931059, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007143330310, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007160929851, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007173676427, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007182790908, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007183869635, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007185398128, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007207374461, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007213943692, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007217077198, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007218417655, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007227807745, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007264575171, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007268981003, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007274231066, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007281172621, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007287856742, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007291357319, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007294007810, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007302471092, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007321182308, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007321608505, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007323233425, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007349396748, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007355885226, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007375338539, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007376165471, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007384428482, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007386160351, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007392745046, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007404457299, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007405546364, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007409491680, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007446962639, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007448596926, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007463618788, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007464100188, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007466921736, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007484370521, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007484830036, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007488366577, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007501286208, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007509135287, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007509577149, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007514660107, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007516640112, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007517158046, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007519108064, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007547196058, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007549802618, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007551530498, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007558209199, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007574636555, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007577370267, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007583072046, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007583412025, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007584261359, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007584314185, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007586378646, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007588458688, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930495007594944921, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34695661c9feea34c8b67e9a1e7a5c89, type: 3}
 --- !u!4 &1248694539 stripped
@@ -8654,7 +9816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1251987819}
-  - component: {fileID: 1251987818}
+  - component: {fileID: 1251987820}
   m_Layer: 0
   m_Name: Thunder Sounds
   m_TagString: Untagged
@@ -8662,7 +9824,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1251987818
+--- !u!4 &1251987819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251987817}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1974432393}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1251987820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8671,40 +9847,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1251987817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8151c26118c801044b34d8ff3b1c55b4, type: 3}
+  m_Script: {fileID: 11500000, guid: e60266c173a602f42b0ef9d6a293ce73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 450057712}
   checkEvery: 4
-  spawningRangeMin: 50
-  spawningRangeMax: 100
+  spawningRangeMin: 35
+  spawningRangeMax: 75
   despawningDistance: 150
   sounds:
-  - {fileID: 8300000, guid: 8204ea3441644cd408f3430087cedcce, type: 3}
+  - {fileID: 4736564107833779040, guid: 67ddfd4d80604b048bd68a8d4ede18c8, type: 3}
   maxNearPlayer: 1
   maxInMap: 1
-  timeBetweenMin: 3
-  timeBetweenMax: 12
+  timeBetweenMin: 120
+  timeBetweenMax: 300
   pitchMin: 0.8
   pitchMax: 1
   volumeMin: 0.8
   volumeMax: 1
-  treeHeightMin: 4
-  treeHeightMax: 15
---- !u!4 &1251987819
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251987817}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  heightMin: 3
+  heightMax: 10
 --- !u!1 &1255647566
 GameObject:
   m_ObjectHideFlags: 0
@@ -9028,8 +10190,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280399362}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 705.83374, y: -13.325001, z: 95.44211}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5662842, y: -22.205002, z: 861.94214}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2018911536}
@@ -9040,8 +10202,8 @@ Transform:
   - {fileID: 538316063}
   - {fileID: 1791514497}
   - {fileID: 626853016}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1286172102
 PrefabInstance:
@@ -9935,7 +11097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 11400000, guid: 5272c55b882edd34a9d80b11bd6f240c, type: 2}
-  exportAllChildren: 0
+  exportAllChildren: 1
   terrainSimplificationLevel: 0
 --- !u!1001 &1343268573
 PrefabInstance:
@@ -10112,8 +11274,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369040175}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 465.61002, y: -18, z: -54.070007}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -241.79001, y: -26.880001, z: 712.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1593275107}
@@ -10125,8 +11287,8 @@ Transform:
   - {fileID: 701408966}
   - {fileID: 440926123}
   - {fileID: 874493971}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1420730660
 PrefabInstance:
@@ -10300,43 +11462,43 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 303447741}
     m_Modifications:
     - target: {fileID: 177716, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_Name
-      value: Prop_FlyingSaucer
+      value: Alien
       objectReference: {fileID: 0}
     - target: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -71.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.7755995
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -288.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8614074
+      value: 0.86140746
       objectReference: {fileID: 0}
     - target: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.055390704
+      value: 0.05539071
       objectReference: {fileID: 0}
     - target: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.4689289
+      value: 0.46892893
       objectReference: {fileID: 0}
     - target: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.18712223
+      value: 0.18712224
       objectReference: {fileID: 0}
     - target: {fileID: 456876, guid: 6a5be503323d68540adb3b1e037dfd48, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10496,133 +11658,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 493530, guid: d2c499d59bc20854b8bd6d43bbfb4ca5, type: 3}
   m_PrefabInstance: {fileID: 1453532747}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1476746473
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1476746474}
-  - component: {fileID: 1476746475}
-  m_Layer: 0
-  m_Name: BackSound
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1476746474
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476746473}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -839, z: 326}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1026758173}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1476746475
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476746473}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 80e31c72b3f0ce44db7799a956541021, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.15
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 1
-  SpatializePostEffects: 1
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &1478246819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10633,6 +11668,10 @@ PrefabInstance:
     - target: {fileID: 199228, guid: fe816015a58e629439b27ecca9cdb110, type: 3}
       propertyPath: m_Name
       value: Prop_ChurchBench_A_DM
+      objectReference: {fileID: 0}
+    - target: {fileID: 199228, guid: fe816015a58e629439b27ecca9cdb110, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 485384, guid: fe816015a58e629439b27ecca9cdb110, type: 3}
       propertyPath: m_RootOrder
@@ -10832,13 +11871,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549558412}
-  m_LocalRotation: {x: -0.66826856, y: 0.23112147, z: -0.23112147, w: -0.66826856}
+  m_LocalRotation: {x: -0.6847503, y: 0.17640014, z: 0.17640014, w: 0.6847503}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1026758173}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: -4.632, z: -326.476}
+  m_LocalEulerAnglesHint: {x: 270, y: -4.632, z: -326.476}
 --- !u!1001 &1584637765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10846,6 +11885,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2026334583}
     m_Modifications:
+    - target: {fileID: 1725701274583342244, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725701275015640509, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725701275809427304, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725701275960558624, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725701275979699531, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725701276519550761, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725701276569728579, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 7231439397701355438, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10893,6 +11960,10 @@ PrefabInstance:
     - target: {fileID: 7556927899765710675, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
       propertyPath: m_Name
       value: BrickHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556927899765710675, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc22b33ebfa9b0f4993706bac442f2d9, type: 3}
@@ -11105,6 +12176,10 @@ PrefabInstance:
     - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_Name
       value: Prop_ChurchBench_A (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 144546, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 433038, guid: 51e1ec27a31e16a4ba99622c680fd8ec, type: 3}
       propertyPath: m_RootOrder
@@ -12547,6 +13622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Church1_End_B
       objectReference: {fileID: 0}
+    - target: {fileID: 160078, guid: 19d091357490f6840bc24462233284ae, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 454020, guid: 19d091357490f6840bc24462233284ae, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -12961,8 +14040,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902868235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 715.02, y: 20.690002, z: -183.95001}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.619995, y: 11.810001, z: 582.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1809282858}
@@ -12974,8 +14053,8 @@ Transform:
   - {fileID: 1084855141}
   - {fileID: 208675610}
   - {fileID: 1813808848}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1904430726
 GameObject:
@@ -13001,12 +14080,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904430726}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 417.62, y: -4.723505, z: -254.93}
+  m_LocalPosition: {x: -289.78003, y: -13.603506, z: 511.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1314147192}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1904675992
 PrefabInstance:
@@ -13111,7 +14190,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1936172876 stripped
 GameObject:
@@ -13226,6 +14305,49 @@ Transform:
   m_Father: {fileID: 216638647}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 20.442, y: 0, z: 0}
+--- !u!1 &1960125913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1960125914}
+  m_Layer: 0
+  m_Name: PoI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1960125914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960125913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 707.4, y: 8.880001, z: -766.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 303447741}
+  - {fileID: 745902044}
+  - {fileID: 1369040176}
+  - {fileID: 908717709}
+  - {fileID: 164785832}
+  - {fileID: 2026334583}
+  - {fileID: 1280399363}
+  - {fileID: 1902868236}
+  - {fileID: 1904430727}
+  - {fileID: 448859163}
+  - {fileID: 163021919}
+  - {fileID: 1971799323}
+  - {fileID: 132969440}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1962820946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13236,6 +14358,10 @@ PrefabInstance:
     - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_Name
       value: Struct_Docking_B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 129540, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: 442760, guid: 839d15f594053604a9e89b5145396cdd, type: 3}
       propertyPath: m_RootOrder
@@ -13311,14 +14437,48 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971799322}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.589996, y: -2.6999989, z: 21.149994}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -718.99, y: -11.58, z: 787.65}
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.72}
   m_Children:
   - {fileID: 456751083}
   - {fileID: 1153548260}
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1974432392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1974432393}
+  m_Layer: 0
+  m_Name: WorldSounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1974432393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974432392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 906905667}
+  - {fileID: 387216932}
+  - {fileID: 1251987819}
+  - {fileID: 2105257454}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1974461494
 GameObject:
@@ -13717,8 +14877,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026334582}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.929993, y: -3.409998, z: -777.66003}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -681.47003, y: -12.289999, z: -11.160034}
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.72}
   m_Children:
   - {fileID: 4808611}
@@ -13729,8 +14889,8 @@ Transform:
   - {fileID: 1860447313}
   - {fileID: 272191705}
   - {fileID: 1904675993}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1960125914}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2038802435
 GameObject:
@@ -14321,6 +15481,67 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &2105257452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2105257454}
+  - component: {fileID: 2105257453}
+  m_Layer: 0
+  m_Name: Tree Near Sounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2105257453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105257452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8151c26118c801044b34d8ff3b1c55b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 450057712}
+  checkEvery: 4
+  spawningRangeMin: 0
+  spawningRangeMax: 5
+  despawningDistance: 30
+  sounds:
+  - {fileID: 694884244584076139, guid: f209f213772f6954d84a571dcfd2b821, type: 3}
+  - {fileID: 8252716702810295570, guid: 5e8e33e8b279a3b45b1cd8ed730af3e6, type: 3}
+  maxNearPlayer: 2
+  maxInMap: 6
+  timeBetweenMin: 35
+  timeBetweenMax: 120
+  pitchMin: 0.8
+  pitchMax: 1
+  volumeMin: 0.5
+  volumeMax: 0.7
+  treeHeightMin: 0
+  treeHeightMax: 0
+--- !u!4 &2105257454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105257452}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1974432393}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2105779275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14509,6 +15730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struct_Docking_A_DM (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 170528, guid: 13b1d2550a4cb4b429bb4d9463a0e915, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 402548, guid: 13b1d2550a4cb4b429bb4d9463a0e915, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -14669,5 +15894,5 @@ Transform:
   - {fileID: 425724504}
   - {fileID: 587601702}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
