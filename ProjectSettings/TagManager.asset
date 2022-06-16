@@ -9,6 +9,7 @@ TagManager:
   - XROrigin
   - Water
   - Wood
+  - Grabbable
   layers:
   - Default
   - TransparentFX
