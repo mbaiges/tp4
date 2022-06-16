@@ -1671,7 +1671,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 50.56
-  m_Range: 3
+  m_Range: 5
   m_SpotAngle: 142
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -7139,6 +7139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 611377221}
   - component: {fileID: 611377222}
+  - component: {fileID: 611377223}
   m_Layer: 0
   m_Name: Point Light (3)
   m_TagString: Untagged
@@ -7222,6 +7223,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &611377223
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611377220}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a0033344e0bdc134ebcccfe21aedb947, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &626378267 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8372875925271430411, guid: 9413d005e5fff844c95e3cf8356ea70a, type: 3}
@@ -8587,6 +8607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 745296050}
   - component: {fileID: 745296051}
+  - component: {fileID: 745296052}
   m_Layer: 0
   m_Name: Point Light (1)
   m_TagString: Untagged
@@ -8670,6 +8691,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &745296052
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745296049}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7dbfef9b40aa6c40bf2abd81af6d000, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &745902043
 GameObject:
   m_ObjectHideFlags: 0
@@ -12098,6 +12138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1084855141}
   - component: {fileID: 1084855142}
+  - component: {fileID: 1084855143}
   m_Layer: 0
   m_Name: Point Light (4)
   m_TagString: Untagged
@@ -12181,6 +12222,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &1084855143
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084855140}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2f5fc8de99280d42b7739659ce76765, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1085451980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15611,6 +15671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Campfire
       objectReference: {fileID: 0}
+    - target: {fileID: 5543049293376890002, guid: e44daf883abb75d48bfdbce4d5df7edf, type: 3}
+      propertyPath: scale
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e44daf883abb75d48bfdbce4d5df7edf, type: 3}
 --- !u!1001 &1304642162
@@ -16924,6 +16988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423810869}
   - component: {fileID: 1423810870}
+  - component: {fileID: 1423810871}
   m_Layer: 0
   m_Name: Point Light (3)
   m_TagString: Untagged
@@ -16943,7 +17008,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1902868236}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1423810870
 Light:
@@ -17007,6 +17072,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &1423810871
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423810868}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e4bd5f1d5f7478440b36f760e9999b0b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1435038581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21275,8 +21359,8 @@ Transform:
   - {fileID: 1809282858}
   - {fileID: 2104991375}
   - {fileID: 745296050}
-  - {fileID: 1423810869}
   - {fileID: 1974461495}
+  - {fileID: 1423810869}
   - {fileID: 611377221}
   - {fileID: 1084855141}
   - {fileID: 208675610}
@@ -22682,6 +22766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974461495}
   - component: {fileID: 1974461496}
+  - component: {fileID: 1974461497}
   m_Layer: 0
   m_Name: Point Light (2)
   m_TagString: Untagged
@@ -22697,11 +22782,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974461494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.03, y: 21.96, z: 2.72}
+  m_LocalPosition: {x: -3.51, y: 21.52, z: 3.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1902868236}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1974461496
 Light:
@@ -22765,6 +22850,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &1974461497
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974461494}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 167625e63f49a404a8a4dcd080b45313, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1978792003
 GameObject:
   m_ObjectHideFlags: 0
@@ -24045,6 +24149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2104991375}
   - component: {fileID: 2104991376}
+  - component: {fileID: 2104991377}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -24128,6 +24233,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &2104991377
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104991374}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ba5e33800efcefd4e83ab998dd70e099, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2105257452
 GameObject:
   m_ObjectHideFlags: 0
