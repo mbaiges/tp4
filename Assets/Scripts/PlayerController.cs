@@ -12,11 +12,21 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private InputActionReference jumpActionReference;
     [SerializeField] private float jumpForce = 100.0f;
 
+    // Drowning
+    [SerializeField] private float waterHeightTolerance = 0.7f;
+    [SerializeField] private int deathDelaySeconds = 1;
+    [SerializeField] private AudioSource[] drowningSounds;
+    [SerializeField] private AudioSource[] drownSounds;
+    [SerializeField] private AudioSource[] outOfWaterSounds;
+
     private XROrigin _xrOrigin;
     private CapsuleCollider _collider;
     private Rigidbody _body;
 
-    private Vector3 spawn; 
+    private Vector3 spawn;
+    private GameObject water;
+    private float drownSoundAt = -1f;
+    private float dieAt = -1f;
 
     private float startTime;
     private float elapsedTime;
@@ -28,6 +38,7 @@ public class PlayerController : MonoBehaviour
         _collider = GetComponent<CapsuleCollider>();
         _body = GetComponent<Rigidbody>();
         spawn = transform.position;
+        water = GameObject.Find("/World/Water");
         startTime = Time.time;
     }
 
@@ -37,6 +48,7 @@ public class PlayerController : MonoBehaviour
         elapsedTime = Time.time - startTime;
 
         JumpHandler();
+        CheckDeath();
     }
 
     // Updaters
@@ -60,6 +72,40 @@ public class PlayerController : MonoBehaviour
             Vector3 jump = Vector3.up * jumpForce;
             _body.AddForce(jump);
         };
+    }
+
+    private AudioSource RandAudio(AudioSource[] arr) {
+        int idx = UnityEngine.Random.Range(0, arr.Length);
+        return arr[idx];
+    }
+    private void CheckDeath() {
+        if (water != null) {
+            AudioSource audio = null;
+
+            if (_body.transform.position.y < water.transform.position.y - waterHeightTolerance) {
+                if (dieAt < 0) {
+                    Debug.Log("Drowning");
+                    audio = RandAudio(drowningSounds);
+                    drownSoundAt = elapsedTime + (int) (0.3f * deathDelaySeconds);
+                    dieAt = elapsedTime + deathDelaySeconds;
+                }
+                if (elapsedTime > dieAt) {
+                    Debug.Log("Drown");
+                    ResetScene();
+                } else if (elapsedTime > drownSoundAt) {
+                    audio = RandAudio(drownSounds);
+                }
+            }
+            else if (dieAt > 0) {
+                Debug.Log("Saved");
+                audio = RandAudio(outOfWaterSounds);
+                dieAt = -1f;
+            }
+
+            if (audio != null) {
+                audio.Play();
+            }
+        }
     }
 
     private void ResetScene() {
