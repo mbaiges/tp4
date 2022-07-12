@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     private GameObject water;
     private float drownSoundAt = -1f;
     private float dieAt = -1f;
+    private AudioSource soundingSource = null;
 
     private float startTime;
     private float elapsedTime;
@@ -86,14 +87,14 @@ public class PlayerController : MonoBehaviour
                 if (dieAt < 0) {
                     Debug.Log("Drowning");
                     audio = RandAudio(drowningSounds);
-                    drownSoundAt = elapsedTime + (int) (0.3f * deathDelaySeconds);
+                    drownSoundAt = elapsedTime + (int) (0.5f * deathDelaySeconds);
                     dieAt = elapsedTime + deathDelaySeconds;
-                }
-                if (elapsedTime > dieAt) {
+                } else if (elapsedTime > dieAt) {
                     Debug.Log("Drown");
                     ResetScene();
-                } else if (elapsedTime > drownSoundAt) {
+                } else if (drownSoundAt > 0 && elapsedTime > drownSoundAt) {
                     audio = RandAudio(drownSounds);
+                    drownSoundAt = -1f;
                 }
             }
             else if (dieAt > 0) {
@@ -103,7 +104,13 @@ public class PlayerController : MonoBehaviour
             }
 
             if (audio != null) {
+                if (soundingSource != null) {
+                    Debug.Log("Stopping sound");
+                    soundingSource.Stop();
+                    soundingSource = null;
+                }
                 audio.Play();
+                soundingSource = audio;
             }
         }
     }
